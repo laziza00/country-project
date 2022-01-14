@@ -5,14 +5,193 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>country-project</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+ 
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="">
+    <header class="country-header">
+      <div class="container">
+        <div class="header-inner row middle between">
+          <h1 class="logo">Where in the world?</h1>
+          <button class="light-dark" id="modeBtn"> Dark Mode</button>
+      </div>
+    </header>
+    <div class="main-site">
+      <div class="container">
+        <div class="row middle between form-group">
+          <div class="input-search row middle between">
+            <i class='bx bx-search-alt-2' undefined ></i>
+            <input type="text" name="search" placeholder="Search for a country…">
+          </div>
+         <div class="select">
+           <p>select</p>
+         </div>
+        </div>
 
+        <div class="countries">
+          <ul class="country-list row middle">
+            <li class="country-item">
+              <img class="country-img" src="images/germany.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">Germany</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text">81,770,900</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text">Europe</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Berlin </p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="country-item">
+              <img class="country-img" src="images/usa.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">United States of America</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text">323,947,000</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text"> Americas</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Washington, D.C. </p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="country-item">
+              <img class="country-img" src="images/brazil.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">Brazil</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text">206,135,893</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text">Americas</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Brasília</p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="country-item">
+              <img class="country-img" src="images/iceland.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">Iceland</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text">334,300</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text">Europe</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Reykjavik </p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="country-item">
+              <img class="country-img" src="images/afganistan.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">Afghanistan</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text">27,657,145</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text">Asia</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Kabul </p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="country-item">
+              <img class="country-img" src="images/islandiya.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">Åland Islands</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text"> 28,875</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text">Europe</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Mariehamn </p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="country-item">
+              <img class="country-img" src="images/tirana.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">Albania</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text">2,886,026</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text">Europe</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Tirana</p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="country-item">
+              <img class="country-img" src="images/algeria.svg" alt="img" width="264" height="160">
+              <h3 class="country-title">Algeria</h3>
+              <ul class="list-info">
+                <li class="info-item row middle">
+                  <h4 class="info-title">Population: </h4>
+                  <p class="info-text">40,400,000</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Region: </h4>
+                  <p class="info-text">Europe</p>
+                </li>
+                <li class="info-item row middle">
+                  <h4 class="info-title">Capital: </h4>
+                  <p class="info-text">Algeries</p>
+                </li>
+              </ul>
+  
+            </li>
+          </ul>
+        </div>
+      </div>
+     
+    </div>
   <script src="js/main.js"></script>
 </body>
 
