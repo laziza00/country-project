@@ -154,3 +154,38 @@ input[type="text"]:focus{
   color: var(--text-color);
   margin-right: 5px;
 }
+
+
+.back-box{
+  width: 136px;
+  background: var(--primary-color);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
+  padding: 10px 34px;
+}
+.back{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color);
+}
+.belgiya-link{
+  text-decoration: none;
+}
+.bx-arrow-back{
+  margin-right: 10px;
+  color: var(--text-color);
+}
+.belgiya-title{
+  font-weight: 800;
+}
+.belgiya-img{
+  margin-right: 30px;
+  border-radius: 5px;
+}
+.belgium-lidt-box{
+  margin-right: 10px;
+}
+.border-box{
+  margin-left: 30px;
+}
